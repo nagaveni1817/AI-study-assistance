@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Frontend build output
+frontend/dist/
+
+# Backend build output
+backend/build/
+backend/.gradle/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
