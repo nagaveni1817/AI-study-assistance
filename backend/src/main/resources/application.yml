@@ -3,8 +3,8 @@ spring:
     name: backend
   datasource:
     url: ${DB_URL:jdbc:postgresql://localhost:5432/ai_study_assistance}
-    username: ${DB_USERNAME:ai_study_user}
-    password: ${DB_PASSWORD:ai_study_password}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:Nagu@2006}
     driver-class-name: org.postgresql.Driver
   flyway:
     enabled: true

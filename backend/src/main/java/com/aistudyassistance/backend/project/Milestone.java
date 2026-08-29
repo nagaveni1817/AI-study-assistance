@@ -1,0 +1,1 @@
+package com.aistudyassistance.backend.project;import jakarta.persistence.*;@Entity@Table(name="project_milestones")public class Milestone{@Id@GeneratedValue(strategy=GenerationType.IDENTITY)public Long id;@Column(name="project_id")public Long projectId;public String title,description;public boolean completed;protected Milestone(){}}

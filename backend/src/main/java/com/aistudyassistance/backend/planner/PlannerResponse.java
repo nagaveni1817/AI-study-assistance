@@ -1,0 +1,2 @@
+package com.aistudyassistance.backend.planner;
+import java.time.*; public record PlannerResponse(Long id,Long taskId,String title,boolean completed,LocalDate scheduledDate,LocalTime startTime,int durationMinutes){static PlannerResponse from(ScheduledTask s){return new PlannerResponse(s.getId(),s.getTask().getId(),s.getTask().getTitle(),s.getTask().isCompleted(),s.getScheduledDate(),s.getStartTime(),s.getDurationMinutes());}}
